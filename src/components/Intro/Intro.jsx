@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
@@ -44,13 +43,13 @@ const Intro = () => {
         color : darkMode? "white":'',
         }}
         >
-          <a href="https://github.com/dangarpa6" target='_blank'>
+          <a href="https://github.com/dangarpa6">
             <FaGithub className='git'
                   style={{ 
                     color : darkMode? "lightgray":'',
                     }} />
           </a>
-          <a href="https://www.linkedin.com/in/daniel-garcia-2b1636231/" target='_blank'>
+          <a href="https://www.linkedin.com/in/daniel-garcia-2b1636231/">
             <FaLinkedin className='linkin' 
                   style={{ 
                     color : darkMode? "lightgray":'',
