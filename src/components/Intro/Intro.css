@@ -96,22 +96,6 @@
 
   animation : float 3s linear infinite;
     
-  @media only screen and (max-width: 900px){
-     
-      width: 50%;
-      top: 10%;
-      left: 25%;
-
-  }
-}
-
-.i-right > :nth-child(3) {
-  transform: scale(1.9);
-  right: 33%;
-  top: 25%;
-
-  animation : float 3s linear infinite;
-    
   @media only screen and (max-width: 1800px){
      
       width: 50%;
@@ -120,6 +104,8 @@
 
   }
 }
+
+
 
 @keyframes float {
   0%, 100%{
