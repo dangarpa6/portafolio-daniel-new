@@ -45,6 +45,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
+          
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
