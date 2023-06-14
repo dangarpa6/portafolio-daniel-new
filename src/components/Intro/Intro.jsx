@@ -15,7 +15,7 @@ import Blobs from "../Blobs/Blobs";
 
 const Intro = () => {
   // Transition
-  const transition = { duration: 2, type: "spring" };
+  const transition = { duration: 1, type: "none" };
 
   // context
   const theme = useContext(themeContext);
@@ -29,7 +29,7 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
           <span>Developer</span>
-          <span>
+          <span style={{ color: darkMode ? "white" : "" }}>
           Passionate about web programming, knowledge in graphic design, advertising and animation which allows me takes apps and websites construction to the next level, don't hesitate in contact me.
           </span>
         </div>
@@ -75,25 +75,26 @@ const Intro = () => {
           alt=""
         />
 
-        <motion.div
+<motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
+          whileInView={{ left: "50%" }}
           transition={transition}
-          className="floating-div"
+          className="crown"
         >
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
         {/* animation */}
         <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
+          initial={{ left: "9%", top: "45%" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
-          className="floating-div"
+          className="thumbup"
         >
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
         </motion.div>
+
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

@@ -29,7 +29,7 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--gray);
   margin-top: 10px;
 }
@@ -142,6 +142,40 @@
   filter: blur(72px);
 }
 
+
+.crown {
+  transform: scale(1);
+
+
+  @media only screen and (max-width: 1800px){
+     
+ transform: scale(0.7);
+
+}
+
+
+}
+
+.thumbup {
+  transform: scale(1);
+
+  
+  @media only screen and (max-width: 1800px){
+     
+ transform: scale(0.7);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
   .Intro {
     flex-direction: column;
@@ -158,8 +192,12 @@
   }
   .floating-div:nth-of-type(1){
     /* display: none; */
-    top: -7rem !important;;
+    top: -10rem !important;;
   }
+
+
+  
+
 }
 
 
