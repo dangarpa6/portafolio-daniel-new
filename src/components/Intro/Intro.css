@@ -185,7 +185,7 @@
 
   .i-right {
     transform: scale(1);
-    left: -2rem;
+    left: -1rem;
   }
   .i-right .blur {
     display: none;
