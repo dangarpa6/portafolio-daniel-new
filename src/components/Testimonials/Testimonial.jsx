@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
 
 const Testimonial = () => {
   const clients = [
@@ -25,7 +24,7 @@ const Testimonial = () => {
     {
       img: profilePic3,
       review:
-        "Daniel exhibited a solid understanding of React concepts, including component-based architecture, JSX syntax, state management, and lifecycle methods. He showed great enthusiasm in applying these concepts to real-world projects and consistently showcased creativity and problem-solving skills.",
+        "Daniel exhibited a solid understanding of React concepts, including component-based architecture, JSX syntax, state management, and lifecycle methods.",
     },
   ];
 
