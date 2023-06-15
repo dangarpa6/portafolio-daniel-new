@@ -24,16 +24,24 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <a href="https://rickandmortybydaniel.netlify.app/">
+          <img src={Sidebar}  alt="" />
+        </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://e-commerce0077.netlify.app/">
           <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://pokeappi007.netlify.app/">
           <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://windapp.netlify.app/">
+          <img src={HOC} alt=""/>
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
@@ -41,3 +49,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+

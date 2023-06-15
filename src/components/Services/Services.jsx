@@ -25,7 +25,7 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span style={{color:" rgb(109, 109, 188)"}}>services</span>
+        <span style={{color:"var(--orange)"}}>services</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />

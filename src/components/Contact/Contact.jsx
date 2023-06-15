@@ -7,21 +7,23 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false)
+
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_pmj1ksg",
+        "template_z4is6sw",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "_zsEvlYOtFM5t9LAi"
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
