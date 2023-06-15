@@ -21,9 +21,9 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            My stack
           </span>
-          <span>Brands & Clients</span>
+          <span>technologies</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />

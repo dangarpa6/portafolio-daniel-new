@@ -47,8 +47,8 @@ const Services = () => {
           <Card
           
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend"}
+            detail={"Creating the user interface and delivering a visually interactive experience for users"}
           />
         </motion.div>
         {/* second card */}
@@ -59,8 +59,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Backend"}
+            detail={"Handling server-side operations and processing data"}
           />
         </motion.div>
         {/* 3rd */}
@@ -71,9 +71,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Graphic Design"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Illustator, Photoshop, Adobe Premier, After Effect, "
             }
             color="rgba(252, 166, 31, 0.45)"
           />
