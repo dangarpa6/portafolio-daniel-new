@@ -24,15 +24,14 @@ const Works = () => {
             My stack
           </span>
           <span>technologies</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          <spane style={{ color: darkMode ? "white" : "" }}>
+            Full-stack development, honed my skills in leveraging  
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            React's components and ecosystem to build
             <br />
-            y dummy text of printingLorem
+            dynamic and responsive websites. creating the backend
             <br />
-            ispum is simpley dummy text of printing
+            with powerful technologies such as nodejs and postgres.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

@@ -92,7 +92,7 @@ const Intro = () => {
           className="thumbup"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Guaranteed" text2="creativity" />
         </motion.div>
 
 

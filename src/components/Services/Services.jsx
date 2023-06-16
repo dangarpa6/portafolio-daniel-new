@@ -26,10 +26,10 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span style={{color:"var(--orange)"}}>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        <spane style={{ color: darkMode ? "white" : "" }}>
+        I'm a skilled professional with expertise in React development, Node.js, 
+        and graphic design.
+       
         </spane>
         <a href={Resume} download>
           <button className="button s-button" style={{fontSize: '0.7rem'}}>Download CV</button>
