@@ -24,22 +24,30 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-        <a href="https://rickandmortybydaniel.netlify.app/">
+        <a href="https://rickandmortybydaniel.netlify.app/"
+        target="_blank" rel="noopener noreferrer"
+        >
           <img src={Sidebar}  alt="" />
         </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://e-commerce0077.netlify.app/">
+          <a href="https://e-commerce0077.netlify.app/"
+          target="_blank" rel="noopener noreferrer"
+          >
           <img src={Ecommerce} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://pokeappi007.netlify.app/">
-          <img src={MusicApp} alt="" />
+          <a href="https://pokeappi007.netlify.app/"
+          target="_blank" rel="noopener noreferrer"
+          >
+           < img src={MusicApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://windapp.netlify.app/">
+          <a href="https://windapp.netlify.app/"
+          target="_blank" rel="noopener noreferrer"
+          >
           <img src={HOC} alt=""/>
           </a>
         </SwiperSlide>
