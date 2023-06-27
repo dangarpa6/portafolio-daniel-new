@@ -31,7 +31,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
-                Portafolio
+                Portfolio
               </Link>
             </li>
             <li>
